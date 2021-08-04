@@ -33,4 +33,4 @@ def subscribe_to_global_event(event_name, func):
 async def run():
     while(True):
         trigger_global_event('on_update')
-        await asyncio.sleep(10)
+        await asyncio.sleep(30)
